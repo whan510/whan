@@ -14,7 +14,7 @@ public class UserController {
 
     @RequestMapping("login")
     public String login(){
-        int a = 2;
+        int a = 3;
         System.out.println(a);
         return "login";
     }
