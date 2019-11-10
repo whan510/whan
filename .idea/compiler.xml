@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="common" />
+        <module name="srpingcolud-eureka" />
+        <module name="springclour-zuul" />
+        <module name="springcloud-privoder" />
+        <module name="springcolud-feign" />
+        <module name="springcloud-privoder2" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="springcloud-privoder" options="-parameters" />
+      <module name="springcloud-privoder2" options="-parameters" />
+      <module name="springclour-zuul" options="-parameters" />
+      <module name="springcolud-feign" options="-parameters" />
+      <module name="srpingcolud-eureka" options="-parameters" />
+    </option>
+  </component>
+</project>

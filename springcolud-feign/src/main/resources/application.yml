@@ -1,0 +1,16 @@
+
+server:
+  port: 8082
+
+spring:
+  application:
+    name: client-feign
+
+eureka:
+  client:
+    #配置eureka服务地址
+    #默认地址为：http://localhost:8761/eureka/
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+
+
