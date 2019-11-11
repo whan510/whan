@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-config" />
         <module name="api" />
         <module name="common" />
         <module name="srpingcolud-eureka" />
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="springcloud-config" options="-parameters" />
       <module name="springcloud-privoder" options="-parameters" />
       <module name="springcloud-privoder2" options="-parameters" />
       <module name="springclour-zuul" options="-parameters" />
