@@ -7,9 +7,9 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/whan510/configrepository.git
           search-paths:
-        label:master
+        label: master
 eureka:
   client:
     service-url:

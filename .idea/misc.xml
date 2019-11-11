@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/springcloud-privoder2/pom.xml" />
         <option value="$PROJECT_DIR$/springclour-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-configclient/pom.xml" />
       </list>
     </option>
   </component>

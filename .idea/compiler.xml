@@ -10,6 +10,7 @@
         <module name="api" />
         <module name="common" />
         <module name="srpingcolud-eureka" />
+        <module name="springcloud-configclient" />
         <module name="springclour-zuul" />
         <module name="springcloud-privoder" />
         <module name="springcolud-feign" />
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="springcloud-config" options="-parameters" />
+      <module name="springcloud-configclient" options="-parameters" />
       <module name="springcloud-privoder" options="-parameters" />
       <module name="springcloud-privoder2" options="-parameters" />
       <module name="springclour-zuul" options="-parameters" />
